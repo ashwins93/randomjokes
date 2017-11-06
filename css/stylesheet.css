@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(0, 85%, 68%);
+    animation: colorChange 120s linear infinite;
+}
+
+@keyframes colorChange {
+    0%      { background-color: hsl(0, 85%, 68%) }
+    25%     { background-color: hsl(120, 85%, 68%)}
+    50%     { background-color: hsl(240, 85%, 68%)}
+    75%     { background-color: hsl(300, 85%, 68%)}
+    100%    { background-color: hsl(360, 85%, 68%)}
+}
